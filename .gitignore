@@ -1,0 +1,12 @@
+# Exclude data and reference genome files
+data/raw_data/*.fq
+data/index/*
+data/reference_genome/*
+.DS_Store
+code/work
+code/.nextflow/*
+code/.nextflow*
+#Keep
+!data/raw_data/.gitkeep
+!data/index/.gitkeep
+!data/reference_genome/.gitkeep
